@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+.center{
+    width: 93%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px ;
+    
+}
+.shop ul {
+  display: flex;
+  
+}
+
+.shop .jo{
+    margin-left: 24px;
+}
+.shop ul li{
+ list-style: none;
+
+ 
+}
+.shop ul li a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.shop ul li a:hover{
+    color: aquamarine;
+}
+.grove:hover{
+    cursor: pointer;
+opacity: 0.65;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  background-image: url(./images/big1.png);
+ background-size: 100% 100%
+}
+.Desk{
+    padding: 188px 0px 197px 0px;
+}
+.Desk h1{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 43px;
+line-height: 46px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.Desk p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #FFFFFF;
+padding: 12px 0px 28px 0px;
+}
+.Desk h2{  
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+.design{
+    padding: 80px 0px;
+}
+.design h2{
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #000000;
+}
+.design h1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+.design  p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #A0A0A0;
+padding: 23px 0px 26px 0px;
+}
+
+.desk{
+    display: flex; 
+    justify-content: space-between;
+}
+.desk h2{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 27px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+padding: 48px 0px 23px 0px;
+}
+.desk p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #000000;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.center4{
+    width: 93%;
+}
+.Featured{
+    margin-top: 130px;
+}
+.Featured h1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;    
+}
+.Featured p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #A0A0A0;
+padding: 16px 0px 52px 0px;
+}
+.Featured img{
+    width: 100%;
+    padding-bottom: 24px;
+}
+.Walnut{
+    display: flex;
+    justify-content: space-between;
+}
+.see{
+    margin-bottom: 95px;
+}
+.see p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;    
+    padding-top: 23px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(./images/Rectanglehome.png);
+    background-size: 100% 100%;
+}
+.home{
+    padding: 174px 0px 185px 0px;
+}
+.home h1{
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 66px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+}
+.home p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    padding: 14px 0px 30px 0px;
+}
+.home h2{  
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.made{
+    margin-top: 116px;
+    margin-bottom: 79px;
+}
+.made h1{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 34px;
+line-height: 36px;
+color: #000000;
+text-align: center;
+margin-bottom: 23px;
+}
+.made p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;   
+}
+.here {
+  display: flex; justify-content: center;
+ margin: 23px 0px 38px 0px;
+}
+.manyfhotos{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 35px;
+    
+}
+.manyfhotos img:hover{
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+.hope{
+    padding: 90px 0px 121px 0px;
+}
+.hope h1{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 34px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin-bottom: 44px;
+}
+.hope p{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.container6{
+background: #9AA8B1;
+  padding: 120px 0px;
+  margin-bottom: 39px;
+}
+.listok{
+    display: flex;
+    justify-content: center;
+}
+.container6 h1{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 43px;
+line-height: 58px;
+text-align: center;
+color: #FFFFFF;
+padding: 24px 0px;
+}
+.container6 p{
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #FFFFFF;
+}
+
+.container7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F9F9F9;
+}
+.center7{
+    width: 93%;
+}
+.goup{
+    display: flex;
+    justify-content: flex-end;
+}
+.goup button{
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #FFFFFF;
+padding: 28px 30px;
+background: #000000;
+cursor: pointer;
+}
+.goup button:hover{
+    background: #925d5d;
+}
+.about{
+    display: flex;
+    gap: 30px;
+}
+.left7 ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.left7 ul li a{
+    text-decoration: none;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+cursor: pointer;
+}
+.left7 ul li a:hover{
+    color: #a88484;
+}
+.right7{
+    width: 26%;
+}
+.right7 h1{
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 23px;
+}
+.right7 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;    
+    padding-bottom: 91px;
+}
+.terms{
+    padding: 84px 0px 28px 0px;
+}
+.terms ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 38px;
+}
+.terms ul li{
+    list-style: none;
+}
+.terms ul li a{
+ text-decoration: none;
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: right;
+letter-spacing: 0.8px;
+color: #707A7F;
+cursor: pointer;
+}
+.terms ul li a:hover{
+    color: #ca4949;
+}
